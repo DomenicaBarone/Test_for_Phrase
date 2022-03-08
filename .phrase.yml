@@ -7,7 +7,7 @@ phrase:
         file_format: xlsx
   pull:
     targets:
-    - file: ./it-IT.json
+    - file: ./it-IT.xlsx
       params:
         file_format: i18next
 
