@@ -2,14 +2,14 @@ phrase:
   project_id: ec87799cc908153b6d91cfb8d976541f
   push:
     sources:
-    - file: ./frontend/lang/en-US.json
+    - file: ./Test1_xlsx_Domenica/hu-HU.xls
       params:
-        file_format: i18next
-        locale_id: 7a88116d641c63b4b7727262c34823ca
+        file_format: xls
+        locale_id: aaa556d56af06fcf6a7df5461bef3750
   pull:
     targets:
-    - file: ./frontend/lang/<locale_name>.json
+    - file: ./Test1_xlsx_Domenica/<locale_name>.xls
       params:
-        file_format: i18next
+        file_format: xls
 
       
