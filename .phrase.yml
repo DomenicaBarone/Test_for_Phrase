@@ -1,16 +1,21 @@
 phrase:
-  project_id: ec87799cc908153b6d91cfb8d976541f
+  access_token: 2e7795ddc27754b089eae342c08f7a05ce3ec51de9737afda5ccba77bb33a86a
+  project_id: 62b6466e431516dcd1f2a5e7b70fca88
+
   push:
     sources:
-    - file: ./Test1_xlsx_Domenica.xlsx
-      params:
-        file_format: xlsx
-        locale_id: aaa556d56af06fcf6a7df5461bef3750
+      - file: en-US.xlsx
+        params:
+          file_format: xlsx
+          update_translations: true
+          autotranslate: true
+          locale_id: 146d697f7bdce5353c058c9b0db61c8c
+
   pull:
     targets:
-    - file: ./Test1_xlsx_Domenica/<locale_name>.xlsx
-      params:
-        file_format: xlsx
-        locale_id: aaa556d56af06fcf6a7df5461bef3750
-
+      - file: en-US.xlsx
+        params:
+          file_format: xlsx
+          locale_id: aaa556d56af06fcf6a7df5461bef3750
+          include_unverified_translations: false
       
