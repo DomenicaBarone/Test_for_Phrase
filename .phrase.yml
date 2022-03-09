@@ -2,14 +2,14 @@ phrase:
   project_id: ec87799cc908153b6d91cfb8d976541f
   push:
     sources:
-    - file: ./Test1_xlsx_Domenica/hu-HU.xls
+    - file: ./Test1_xlsx_Domenica/hu-HU.xlsx
       params:
-        file_format: xls
+        file_format: xlsx
         locale_id: aaa556d56af06fcf6a7df5461bef3750
   pull:
     targets:
-    - file: ./Test1_xlsx_Domenica/<locale_name>.xls
+    - file: ./Test1_xlsx_Domenica/<locale_name>.xlsx
       params:
-        file_format: xls
+        file_format: xlsx
 
       
