@@ -1,13 +1,14 @@
 phrase:
-  project_id: 62b6466e431516dcd1f2a5e7b70fca88
+  project_id: ec87799cc908153b6d91cfb8d976541f
   push:
     sources:
-    - file: ./hu-HU.xlsx
+    - file: ./frontend/lang/en-US.json
       params:
-        file_format: xlsx
+        file_format: i18next
+        locale_id: 7a88116d641c63b4b7727262c34823ca
   pull:
     targets:
-    - file: ./it-IT.xlsx
+    - file: ./frontend/lang/<locale_name>.json
       params:
         file_format: i18next
 
