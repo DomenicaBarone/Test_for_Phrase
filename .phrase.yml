@@ -10,5 +10,8 @@ phrase:
     - file: ./it-IT.xlsx
       params:
         file_format: i18next
-
-      
+  pull:
+    targets:
+    - file: ./es-ES.xlsx
+     params:
+        file_format: i18next
