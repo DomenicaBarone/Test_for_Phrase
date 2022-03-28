@@ -13,9 +13,9 @@ phrase:
 
   pull:
     targets:
-      - file: en-US.xlsx
+      - file: es-ES.xlsx
         params:
           file_format: xlsx
-          locale_id: aaa556d56af06fcf6a7df5461bef3750
+          locale_id: 72d989e8a4fdec626a4303d38401721f
           include_unverified_translations: false
       
