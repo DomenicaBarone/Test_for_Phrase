@@ -1,6 +1,6 @@
 phrase:
   access_token: 2e7795ddc27754b089eae342c08f7a05ce3ec51de9737afda5ccba77bb33a86a
-  project_id: 62b6466e431516dcd1f2a5e7b70fca88 
+  project_id: 3b1b706db7b46fe18df284d109eb56f7 
 
   push:
     sources:
@@ -9,13 +9,13 @@ phrase:
           file_format: xlsx
           update_translations: true
           autotranslate: true
-          locale_id: 146d697f7bdce5353c058c9b0db61c8c
+          locale_id: e247f8a279e35a26b7d463e19aeccf21
 
   pull:
     targets:
-      - file: es-ES.xlsx
+      - file: de-DE.xlsx
         params:
           file_format: xlsx
-          locale_id: 72d989e8a4fdec626a4303d38401721f
+          locale_id: f9593a252a681791a3efe2ff29991ca2
           include_unverified_translations: false
       
