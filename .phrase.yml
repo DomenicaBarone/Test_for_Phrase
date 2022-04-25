@@ -18,7 +18,6 @@ phrase:
         file_format: simple_json
         locale_id: en
         update_translations: true
-        mark_reviewed: true
           
   pull:
     targets:
