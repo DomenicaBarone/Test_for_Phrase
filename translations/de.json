@@ -1,7 +1,7 @@
 {
   "new.test.char": "TEST1234567",
   "new.test.char2": "Das ist ein neuer Schlüssel",
-  "new.test.nick": null,
+  "new.test.nick": "TEST11111111",
   "test.2.test2": "Hallo alle miteinander!",
   "test.dome.domenica": "Hallo Welt!"
 }
