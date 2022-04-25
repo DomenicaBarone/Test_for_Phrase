@@ -4,5 +4,6 @@
   "new.test.nick": "TEST11111111",
   "test.2.test2": "Hi eveyone",
   "test.dome.domenica": "Hello world1_updated",
-  "test.key.char3": "This is a string that contains some text"
+  "test.key.char3": "This is a string that contains some text",
+  "test.key.char4": "This is an example string"
 }
