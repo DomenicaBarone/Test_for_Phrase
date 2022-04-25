@@ -4,27 +4,27 @@ phrase:
 
   push:
     sources:
-      - file: ./translations/en.json
-        params:
-          file_format: simple_json
-          locale_id: en
-          update_translations: true
-          mark_reviewed: true
-          
-   pull:
-     targets:
-      - file: ./translations/en.json
-        params:
-          file_format: simple_json
-          locale_id: en
-          update_translations: true
-          mark_reviewed: true
+    - file: ./translations/en.json
+      params:
+        file_format: simple_json
+        locale_id: en
+        update_translations: true
+        mark_reviewed: true
           
   pull:
     targets:
-      - file: ./translations/de.json
-        params:
-          file_format: simple_json
+    - file: ./translations/en.json
+      params:
+        file_format: simple_json
+        locale_id: en
+        update_translations: true
+        mark_reviewed: true
+          
+  pull:
+    targets:
+    - file: ./translations/de.json
+      params:
+        file_format: simple_json
           locale_id: de
           include_empty_translations: true
           
