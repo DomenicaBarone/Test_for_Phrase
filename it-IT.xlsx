@@ -1,0 +1,202 @@
+{
+  "absence-settings-ui": {
+    "create-absence-policy-dialog": {
+      "save-button": "Bekräfta och skapa",
+      "summary-step": "Sammanfattning",
+      "summary": {
+        "annual-entitlement": "Årlig rätt",
+        "annual-entitlement-tooltip": "Anställda får begära frånvaro mer än de har rätt till, och om de beviljas kommer de då att ha ett negativt saldo. Detta kommer alltid att beaktas vid beräkningen av deras saldo för nästa cykel.",
+        "annual-entitlement-value": ":timmar timmar",
+        "carryover-label": "Överföring",
+        "carryover": {
+          "expiry": "upphör att gälla:månader efter periodens slut",
+          "expiry-none": "ingen utgång",
+          "limit": "Max. {{hours}}h",
+          "not-allowed": "Inte alllowed",
+          "unlimited": "Obegränsad överföring"
+        },
+        "granting-cycle-label": "Beviljande av cykel och moment",
+        "granting-cycle": {
+          "grant-at-end-of-the-month": "i början av följande månad",
+          "grant-at-start-of-the-month": "i början av månaden",
+          "monthly": "Månatliga",
+          "yearly": "Årliga"
+        },
+        "policy-name": "Principnamn",
+        "proration-end-of-employment": "Proration vid anställningens slut",
+        "proration-start-of-employment": "Proration vid anställningsstart",
+        "proration": {
+          "daily": "Dagliga",
+          "monthly": "Månatliga",
+          "none": "Ingen"
+        }
+      }
+    }
+  },
+  "custom-reports": {
+    "period-cell-tooltip": "Den här perioden ligger delvis inom det definierade datumintervallet.",
+    "regenerate-report": "Återskapa rapport",
+    "regenerated": "Regenereras!"
+  },
+  "employee-header": {
+    "profile-picture": {
+      "delete": {
+        "text": "Vill du ta bort din profilbild?",
+        "title": "Ta bort profilbild"
+      },
+      "upload": {
+        "errors": {
+          "file-too-large": "Bilden är för stor, minska filstorleken till max 10 MB och försök igen",
+          "invalid-file-type": "Filformatet stöds inte, vi stöder JPG & PNG",
+          "too-many-files": "Kan inte ladda upp flera filer samtidigt, ladda bara upp en",
+          "unknown": "Vi är ledsna, något gick fel. Försök igen."
+        },
+        "success": "Profilbilden har laddats upp",
+        "upload": "Uppladdning"
+      }
+    }
+  },
+  "integrations": {
+    "configwizard": {
+      "okta": {
+        "custom_login": {
+          "description": "Du kan välja önskad Okta-domän, som ska användas för att etablera nya användare, och definiera ett anpassat inloggningsschema som synkroniseras från Personio till Okta."
+        }
+      }
+    },
+    "shared": {
+      "video_conferencing_error_message": "Något gick fel. Fråga administratören om Cronofy har\nsynkroniserats med kalendern annars kontakta\nKundsupport."
+    }
+  },
+  "models": {
+    "configuration_section": {
+      "api": {
+        "tooltip": "Användare med denna behörighet kommer att ha tillgång till företags-ID & API Access Token så att de kan fråga anställdas data i Personio"
+      }
+    }
+  },
+  "navigation": {
+    "main": {
+      "payroll-simulations": "Lönesimuleringar"
+    }
+  },
+  "performance": {
+    "profile": {
+      "edit-evaluation": "Redigera utvärdering",
+      "review-manager-review": "Chefsgranskning",
+      "review-peer-review": "Peer review",
+      "review-self-review": "Självrecension"
+    },
+    "training": {
+      "session-page-back-training-overview": "Is this a new test?",
+      "session-page-none-invite": "Du har inte bjudit in någon än.",
+      "session-page-none-invite-label": "När du börjar bjuda in personer till den här sessionen visas deras status här",
+      "session-page-show-description": "Visa beskrivning",
+      "session-page-start-invite": "Börja bjuda in personer"
+    }
+  },
+  "recruiting": {
+    "common": {
+      "sign-up": "Registrering"
+    },
+    "disqualification-dialog": {
+      "do-not-disqualify": "Diskvalificera inte den här kandidaten.",
+      "error-403-description": "Tyvärr har du inte redigeringsbehörighet till de valda programmen. Kontakta administratören.",
+      "reject-and-schedule-success": "Ansökan har avslagits och ett e-postmeddelande har schemalagts för att skickas",
+      "reject-and-schedule-success_plural": "{{count}} program har avvisats och ett e-postmeddelande har schemalagts för att skickas",
+      "reject-card-description": "Ni har beslutat att kandidaten inte är rätt lämpad för den här tjänsten.",
+      "reject-card-description_plural": "Ni har beslutat att kandidaterna inte är rätt lämpade för denna tjänst.",
+      "reject-card-title": "Avslå ansökan",
+      "reject-card-title_plural": "Avvisa ansökningar",
+      "reject-with-email-success": "Ansökan har avslagits och ett e-postmeddelande har skickats",
+      "reject-with-email-success_plural": "{{count}}-program har avvisats och ett e-postmeddelande har skickats",
+      "rejection-success": "Ansökan avslogs.",
+      "rejection-success_plural": "{{count}}-program avvisades.",
+      "withdrawal-success": "Ansökan har dragits tillbaka",
+      "withdrawal-success_plural": "{{count}}-program har dragits tillbaka."
+    },
+    "interviews": {
+      "calendar-conferencing-profile-error": "Intervjun kunde inte schemaläggas eftersom den valda värden och en annan anställd har använt samma autentiseringsuppgifter för att autentisera sin videokonferensintegration. Se till att autentisera med unika autentiseringsuppgifter.",
+      "video-conferencing-upsell": {
+        "missing-provider": "Har du ingen videokonferensintegration ännu? Du kan ställa in detta i Personio genom att gå till sidan Personliga inställningar.",
+        "no-provider": "Du har ingen integrering av videokonferenser aktiverad. <a href=\"{{integrations-link}}\"> Registrera dig här.</a>"
+      }
+    }
+  },
+  "subscription": {
+    "current-subscription-details": {
+      "scheduled-changes": "Du har schemalagda ändringar i din prenumeration som kommer att tillämpas på {{scheduledChangeAt}}}. Tills dess <custom-link>kan du se och avbryta det här</custom-link>"
+    },
+    "errors": {
+      "retry": "Igen",
+      "something-went-wrong": "Något gick fel",
+      "try-again": "Försök igen senare"
+    },
+    "plan-features": {
+      "absence-management": "Hantering av frånvaro",
+      "access-to-the-personal-data-api": "Tillgång till API:et för personuppgifter",
+      "advanced-document-management": "Avancerad dokumenthantering",
+      "advanced-extended-reports": "Avancerade utökade rapporter",
+      "attendance-tracking": "Spårning av närvaro",
+      "community-support": "Stöd till communityn",
+      "custom-reports": "Anpassade rapporter",
+      "customer-success-manager": "Valfritt: Customer Success Manager",
+      "digital-personnel-file": "Digital personalfil",
+      "email-support": "Stöd för e-post",
+      "employee-calendar": "Kalender för medarbetare",
+      "essential-reports-exports": "Viktiga rapporter & export",
+      "google-single-sign-on": "Google Enkel inloggning",
+      "in-app-tours": "Rundturer i appen",
+      "integration-to-okta-and-azure-ad": "Integrering till Okta och Azure AD",
+      "login-via-oauth": "Logga in via oAuth",
+      "management-of-sub-companies": "Förvaltning av underföretag",
+      "mobile-app": "Mobilapp",
+      "onboarding-offboarding": "Onboarding & offboarding",
+      "performance-management": "Prestandahantering",
+      "personio-helpcenter": "Personio Hjälpcenter",
+      "personio-marketplace": "Personio Marknadsplats",
+      "phone-support": "Telefonsupport",
+      "preliminary-payroll": "Preliminär lön",
+      "sophisticated-access-rights": "Sofistikerade åtkomsträttigheter",
+      "standard-document-storage": "Standarddokumentlagring",
+      "support-during-implementation": "Stöd under implementeringen",
+      "unlimited-document-storage": "Obegränsad dokumentlagring",
+      "wages-salaries": "Löner"
+    }
+  },
+  "views": {
+    "configuration": {
+      "payroll": {
+        "confirm-delete-compensation-type": "Observera att om du tar bort en kompensationstyp får följande effekter:\n1) denna kompensationstyp kommer att tas bort från alla medarbetarprofiler\n2) historiken för alla betalningar under denna kompensationstyp kommer att tas bort retroaktivt\n3) denna kompensationstyp kan inte längre betalas ut till några anställda"
+      }
+    },
+    "documents": {
+      "employee-documents": {
+        "download-exe": "Filen du hämtar är en körbar filtyp. Dessa filer kan potentiellt skada din dator. Öppna bara dessa filer från personer du litar på. Vill du ladda ner den här filen?"
+      }
+    },
+    "subscription": {
+      "plan-features": {
+        "absence-management": "Hantering av frånvaro",
+        "access-to-the-personal-data-api": "Tillgång till API:et för personuppgifter",
+        "advanced-document-management": "Avancerad dokumenthantering",
+        "advanced-extended-reports": "Avancerade utökade rapporter",
+        "attendance-tracking": "Spårning av närvaro",
+        "custom-reports": "Anpassade rapporter",
+        "customer-success-manager": "Valfritt: Customer Success Manager",
+        "digital-personnel-file": "Digital personalfil",
+        "employee-calendar": "Kalender för medarbetare",
+        "free-telephone-support": "Gratis telefonsupport",
+        "google-single-sign-on": "Google Enkel inloggning",
+        "integration-to-okta-and-azure-ad": "Integrering till Okta och Azure AD",
+        "login-via-oauth": "Logga in via oAuth",
+        "management-of-sub-companies": "Förvaltning av underföretag",
+        "onboarding-offboarding": "Onboarding & offboarding",
+        "performance-management": "Prestandahantering",
+        "personio-marketplace": "Personio Marknadsplats",
+        "unlimited-document-storage": "Obegränsad dokumentlagring",
+        "wages-salaries": "Löner"
+      }
+    }
+  }
+}

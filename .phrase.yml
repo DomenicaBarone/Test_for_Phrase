@@ -10,7 +10,6 @@ phrase:
           update_translations: true
           mark_reviewed: true
           locale_id: dfafda8948854e6feb81f5f86943fb6a
-
   pull:
     targets:
       - file: ./translations/<locale_name>.json
@@ -20,4 +19,3 @@ phrase:
           include_empty_translations: true
           use_last_reviewed_version: true
           
-      
