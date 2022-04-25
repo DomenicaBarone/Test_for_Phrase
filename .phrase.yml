@@ -1,30 +1,21 @@
 phrase:
   access_token: 2e7795ddc27754b089eae342c08f7a05ce3ec51de9737afda5ccba77bb33a86a
-  project_id: 62b6466e431516dcd1f2a5e7b70fca88 
+  project_id: d8b77fd44f98aa3a9793942ac1c66f66 
 
   push:
     sources:
-      - file: en-US.xlsx
+      - file: ./translations/<locale_name>.json
         params:
-          file_format: xlsx
+          file_format: simple_json
           update_translations: true
-          autotranslate: true
-          locale_id: 146d697f7bdce5353c058c9b0db61c8c
-
+          mark_reviewed: true
+          locale_id: dfafda8948854e6feb81f5f86943fb6a
   pull:
     targets:
-    - file: ./it-IT.xlsx
-      params:
-        file_format: i18next
-  pull:
-    targets:
-    - file: ./es-ES.xlsx
-     params:
-        file_format: i18next
-  pull:
-    targets: 
-      - file: es-ES.xlsx
+      - file: ./translations/<locale_name>.json
         params:
-          file_format: xlsx
-          locale_id: 72d989e8a4fdec626a4303d38401721f
-          include_unverified_translations: false
+          file_format: simple_json
+          locale_id: af57d58cb635130ad695ccea93157519
+          include_empty_translations: true
+          use_last_reviewed_version: true
+          
