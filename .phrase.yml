@@ -4,7 +4,7 @@ phrase:
 
   push:
     sources:
-    - file: ./translations/en.json
+    - file: ./translations/dedede.json
       params:
         file_format: simple_json
         locale_id: en
@@ -22,7 +22,7 @@ phrase:
           
   pull:
     targets:
-    - file: ./translations/dedede.json
+    - file: ./translations/de.json
       params:
         file_format: simple_json
         locale_id: de
