@@ -22,7 +22,7 @@ phrase:
           
   pull:
     targets:
-    - file: ./translations/de.json
+    - file: ./translations/dedede.json
       params:
         file_format: simple_json
         locale_id: de
