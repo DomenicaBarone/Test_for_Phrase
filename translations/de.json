@@ -1,7 +1,19 @@
 {
-  "new.test.char": "TEST1234567",
+  "employee-header.profile-picture.too.big": null,
+  "employee-header.profile-picture.upload.errors.unknown": "Es tut uns leid. Etwas ist schief gegangen. Bitte versuche es erneut.",
+  "keeeeeeey.name": null,
+  "Key.Freiburg": null,
+  "Key.Leipzig": null,
+  "new.test.Berlin": null,
+  "new.test.char": null,
   "new.test.char2": "Das ist ein neuer Schlüssel",
-  "new.test.nick": "TEST11111111",
+  "new.test.Heidelberg": "Neuer Test Heidelberg",
+  "new.test.nick": null,
+  "new.test.Prague": "Neuer Test Prag",
+  "new.test.rome": null,
   "test.2.test2": "Hallo alle miteinander!",
-  "test.dome.domenica": "Hallo Welt!"
+  "test.dome.domenica": "Hallo Welt!",
+  "test.key.char3": "Dies ist eine Zeichenfolge, die Text enthält",
+  "test.key.char4": "Dies ist eine Beispielzeichenfolge",
+  "this.is.a.test.key": null
 }
