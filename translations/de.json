@@ -1,9 +1,16 @@
 {
+  "book.tickets": "Sie können %{count} Tickets buchen",
+  "boolean_key": null,
   "employee-header.profile-picture.too.big": null,
   "employee-header.profile-picture.upload.errors.unknown": "Es tut uns leid. Etwas ist schief gegangen. Bitte versuche es erneut.",
+  "empty_string_translation": null,
   "keeeeeeey.name": null,
+  "key_with_description": null,
+  "key_with_line-break": null,
   "Key.Freiburg": null,
   "Key.Leipzig": null,
+  "nested.deeply.key": null,
+  "nested.key": null,
   "new.test.Berlin": null,
   "new.test.char": null,
   "new.test.char2": "Das ist ein neuer Schlüssel",
@@ -11,9 +18,18 @@
   "new.test.nick": null,
   "new.test.Prague": "Neuer Test Prag",
   "new.test.rome": null,
+  "null_translation": null,
+  "pluralized_key": {
+    "one": null,
+    "other": null,
+    "zero": null
+  },
+  "sample_collection": null,
+  "simple_key": null,
   "test.2.test2": "Hallo alle miteinander!",
   "test.dome.domenica": "Hallo Welt!",
   "test.key.char3": "Dies ist eine Zeichenfolge, die Text enthält",
   "test.key.char4": "Dies ist eine Beispielzeichenfolge",
-  "this.is.a.test.key": null
+  "this.is.a.test.key": null,
+  "unverified_key": null
 }
