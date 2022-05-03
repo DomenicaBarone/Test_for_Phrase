@@ -4,7 +4,7 @@ phrase:
 
   push:
     sources:
-    - file: ./translations/dedede.json
+    - file: ./translations/test.json
       params:
         file_format: simple_json
         locale_id: en
