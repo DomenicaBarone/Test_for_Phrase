@@ -1,10 +1,10 @@
 {
-    "AbstractSCT": {
-      "expertComments": "Expertenkommentare",
-      "missingStatementData": {
-        "zero": "Keine Info.",
-        "one": "Eine Info",
-        "many": "Informationen"
-      },
-    },
+  "AbstractSCT": {
+    "expertComments": "Expertenkommentare",
+     "missingStatementData": {
+       "zero": "Keine Info.",
+       "one": "Eine Info",
+       "many": "Informationen"
+    }
+  }
 }
