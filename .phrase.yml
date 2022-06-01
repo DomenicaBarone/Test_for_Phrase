@@ -4,10 +4,10 @@ phrase:
 
   push:
     sources:
-    - file: ./translations/test.json
+    - file: ./translations/dedede.json
       params:
         file_format: i18next_4
-        locale_id: en
+        locale_id: de
         update_translations: true
         autotranslate: true
         
