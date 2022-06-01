@@ -8,6 +8,7 @@ phrase:
       params:
         file_format: i18next_4
         locale_id: en
+        update_translations: true
         autotranslate: true
         
         
