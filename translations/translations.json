@@ -1,0 +1,45 @@
+{
+  "AbstractSCT": {
+    "expertComments": "Experts' comments",
+    "missingStatementData": {
+      "message": "Please fill in all the fields and the experts data.",
+      "title": "Missing data"
+    },
+    "missingUserScore": {
+      "message": "You must rate the statement before validating.",
+      "title": "You did not choose a rating"
+    },
+    "noExpertComments": "No expert comments",
+    "noNegativeExperts": {
+      "message": "The number of experts can't be negative.",
+      "title": "Negative number of experts"
+    },
+    "noStudentComments": "(No student comments)",
+    "studentComments": "Students' comments",
+    "userComment": "User comments"
+  },
+  "AccessTokenModal": {
+    "body": {
+      "zero": "Click here to log in via your browser",
+      "one": "Copy your access key",
+      "many": "Paste your access key here"
+    },
+    "goBack": "Go back",
+    "login": "Login",
+    "reload": "Reload",
+    "signIn": "Sign in",
+    "title": "Log in using another method"
+  },
+  "WordCloud": {
+    "displayName": "Word Cloud"
+  },
+  "ZoomApp": {
+    "participant": {
+      "banner": "Want to participate in an event?",
+      "code": "CODE"
+    },
+    "presenter": {
+      "presentAnEvent": "Present an event"
+    }
+  }
+}
