@@ -31,13 +31,16 @@
       "many": "This is the many key" 
   },
     "goBack": "Go back",
-    "login": "Login",
+    "login": "Login now in your Linkedin profile",
     "reload": "Reload",
     "signIn": "Sign in",
     "title": "Log in using another method"
   },
   "WordCloud": {
     "displayName": "Word Cloud"
+  },
+  "linkedin_test": {
+    "displayName": "Linkedin test"  
   },
   "ZoomApp": {
     "participant": {
