@@ -1,0 +1,33 @@
+ {
+  "addProjectModal": {
+    "client": {
+      "addClientButton": {
+        "default": "New client",
+        "noResult": "No client matching, add new"
+      },
+      "label": "Client"
+    },
+    "footerLabels": {
+      "three": "Get paid individually"
+    },
+    "projectTitle": {
+      "label": "Project title"
+    },
+    "saveButton": "Add Project",
+    "subtitle": "Use Collective from sales to final payment. It's free.",
+    "title": "Add a project"
+  },
+  "invoiceGeneratedCollective": {
+    "buttonText": "See all invoices",
+    "contactUs_zero": "This is a zero form",
+    "contactUs_one": "This is a zero form",
+    "contactUs_other": "This is a zero form",
+    "gettingMoney": "You should get the money on your bank account within 30 days.",
+    "hello": "Hello {{firstName}} {{lastName}},",
+    "newInvoice": "Your new invoice of <strong>{{invoiceAmount}}</strong> for your work with <strong>{{companyName}}</strong> is available.",
+    "preheader": "",
+    "project": "Project:",
+    "subject": "Your invoice is available for {{companyName}} | {{projectName}}",
+    "title": "A new transfer of money is coming in!"
+  }
+}
