@@ -7,7 +7,7 @@ phrase:
     - file: ./translations/en.json
       params:
         file_format: i18next_4
-        locale_id: en
+        locale_id: 5498358b2c0a648fa8f6744647ef05f0
         update_translations: true
           
   pull:
@@ -15,7 +15,7 @@ phrase:
     - file: ./translations/en.json
       params:
         file_format: i18next_4
-        locale_id: en
+        locale_id: 5498358b2c0a648fa8f6744647ef05f0
         include_empty_translations: true
           
   pull:
@@ -23,7 +23,7 @@ phrase:
     - file: ./translations/de.json
       params:
         file_format: i18next_4
-        locale_id: de
+        locale_id: ea8eeaef2e65a34594c66449b4102bbb
         include_empty_translations: true
           
           
