@@ -1,13 +1,13 @@
 phrase:
   access_token: 2e7795ddc27754b089eae342c08f7a05ce3ec51de9737afda5ccba77bb33a86a
-  project_id: a2d894203a076ed0172d12bd9be9e24b 
+  project_id: e6f85dd15677081aded6164f98af14a8 
 
   push:
     sources:
-    - file: ./translations/en-US.json
+    - file: ./translations/en.json
       params:
         file_format: i18next_4
-        locale_id: 3d176c94622770b06faeac88b9f63f06
+        locale_id: en
         update_translations: true
           
   pull:
@@ -15,7 +15,7 @@ phrase:
     - file: ./translations/en.json
       params:
         file_format: i18next_4
-        locale_id: 5498358b2c0a648fa8f6744647ef05f0
+        locale_id: en
         include_empty_translations: true
           
   pull:
@@ -23,7 +23,7 @@ phrase:
     - file: ./translations/de.json
       params:
         file_format: i18next_4
-        locale_id: ea8eeaef2e65a34594c66449b4102bbb
+        locale_id: de
         include_empty_translations: true
           
           
