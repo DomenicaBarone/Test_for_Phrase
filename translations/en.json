@@ -23,7 +23,13 @@
       "zero": "Click here to log in via your browser",
       "one": "Copy your access key",
       "many": "Paste your access key here"
-    },
+  },
+  "AccessTokenModal": {
+    "body": {
+      "zero": "Click here to log in via your browser",
+      "one": "Copy your access key",
+      "many": "Paste your access key here" 
+  },
     "goBack": "Go back",
     "login": "Login",
     "reload": "Reload",
