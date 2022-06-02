@@ -24,11 +24,11 @@
       "one": "Copy your access key",
       "many": "Paste your access key here"
   },
-  "AccessTokenModal": {
+  "AccessProfileLinkedin": {
     "body": {
-      "zero": "Click here to log in via your browser",
-      "one": "Copy your access key",
-      "many": "Paste your access key here" 
+      "zero": "This is the zero key",
+      "one": "This is the one key",
+      "many": "This is the many key" 
   },
     "goBack": "Go back",
     "login": "Login",
