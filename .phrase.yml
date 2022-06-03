@@ -18,8 +18,6 @@ phrase:
         locale_id: en
         include_empty_translations: true
           
-  pull:
-    targets:
     - file: ./translations/de.json
       params:
         file_format: i18next_4
